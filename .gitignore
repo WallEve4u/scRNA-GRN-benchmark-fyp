@@ -1,0 +1,15 @@
+# Virtual environment & Python cache
+.venv/
+__pycache__/
+*.pyc
+
+# Huge raw/unpacked data (already archived on Zenodo)
+data/raw/*.zip
+data/beeline/
+data/prepared/*-ExpressionData.csv
+data/prepared/*-network.csv
+
+# External cloned repo & heavy intermediate edge/matrix files
+external/
+work/matrices/
+work/pilot/*.tsv

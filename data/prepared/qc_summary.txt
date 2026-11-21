@@ -1,0 +1,41 @@
+
+=== QC REPORT: hESC-500 ===
+Shape (Genes x Cells)   : 910 x 758
+NaNs / Negatives / Dups : 0 / 0 / 0
+Max expression value    : 19.35 (log-scaled if < 30)
+Baseline zero fraction  : 28.0%
+Genes with <=3 non-zeros: 0
+Known TFs in matrix     : 410
+Network columns         : ['Gene1', 'Gene2']
+True edges (k) / Ref TFs: 4545 edges / 34 source TFs
+Self-loops / Dup edges  : 0 / 0
+Missing network genes   : 0
+Valid subsample levels  : [100, 250, 500]  (Skipped: [])
+
+
+=== QC REPORT: mHSC-E-500 ===
+Shape (Genes x Cells)   : 704 x 1071
+NaNs / Negatives / Dups : 0 / 0 / 0
+Max expression value    : 16.35 (log-scaled if < 30)
+Baseline zero fraction  : 17.2%
+Genes with <=3 non-zeros: 0
+Known TFs in matrix     : 204
+Network columns         : ['Gene1', 'Gene2', 'Score']
+True edges (k) / Ref TFs: 11557 edges / 29 source TFs
+Self-loops / Dup edges  : 0 / 0
+Missing network genes   : 0
+Valid subsample levels  : [100, 250, 500]  (Skipped: [])
+
+
+=== QC REPORT: mDC-500 ===
+Shape (Genes x Cells)   : 821 x 383
+NaNs / Negatives / Dups : 0 / 0 / 0
+Max expression value    : 11.57 (log-scaled if < 30)
+Baseline zero fraction  : 21.7%
+Genes with <=3 non-zeros: 0
+Known TFs in matrix     : 321
+Network columns         : ['Gene1', 'Gene2', 'Score']
+True edges (k) / Ref TFs: 756 edges / 20 source TFs
+Self-loops / Dup edges  : 0 / 0
+Missing network genes   : 0
+Valid subsample levels  : [100, 250]  (Skipped: [500])
