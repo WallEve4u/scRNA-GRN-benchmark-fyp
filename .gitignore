@@ -13,3 +13,4 @@ data/prepared/*-network.csv
 external/
 work/matrices/
 work/pilot/*.tsv
+work/edges/

@@ -1,0 +1,56 @@
+{
+  "datasets": {
+    "hESC-500": {
+      "tf_file": "data/prepared/human-tfs.txt"
+    },
+    "mHSC-E-500": {
+      "tf_file": "data/prepared/mouse-tfs.txt"
+    },
+    "mDC-500": {
+      "tf_file": "data/prepared/mouse-tfs.txt"
+    }
+  },
+  "stress_axes": {
+    "dropout": [
+      0.1,
+      0.3,
+      0.5
+    ],
+    "noise": [
+      0.1,
+      0.25
+    ],
+    "subsample": [
+      100,
+      250,
+      500
+    ]
+  },
+  "replicates": [
+    1,
+    2,
+    3
+  ],
+  "base_seed": 2026,
+  "gate1_cut_list": {
+    "genie3_replicates": [
+      1,
+      2
+    ],
+    "genie3_mDC_axes": [
+      "baseline",
+      "dropout"
+    ],
+    "grnboost2_replicates": [
+      1,
+      2,
+      3
+    ],
+    "ppcor_replicates": [
+      1,
+      2,
+      3
+    ],
+    "local_n_jobs": 4
+  }
+}
